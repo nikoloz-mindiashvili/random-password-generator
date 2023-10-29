@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  background-color: gray;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+ width: 550px;
+ height: 550px;
+ background-color: #1F2937;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#btn-container{
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#line{
+  width: 446px;
+  height: 1px;
+  background-color: #2F3E53;
+  margin: 0 auto;
+  
+}
+
+.display-div{
+  background-color: #273549;
+  width: 211px;
+  height: 40px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.mainText{
+  font-family: Karla;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: -1px;
+  margin: 0px;
+}
+
+#title1{
+  color: white;
+}
+
+#title2{
+  color: #4ADF86;
+}
+
+#description{
+color:  #D5D4D8;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+
+#generateBtn{
+  display: inline-flex;
+  padding: 9px 17px 9px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 6px;
+  background: #10B981;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.password-text{
+  margin: 0;
+  color: #55F991;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; 
+}
